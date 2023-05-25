@@ -1,0 +1,19 @@
+.duvidas {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    margin: 0 auto;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+h2 {
+    margin-top: 5%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+}

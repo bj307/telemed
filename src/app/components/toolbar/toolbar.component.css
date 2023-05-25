@@ -1,0 +1,19 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.logo {
+    margin-left: 5%;
+}
+
+.btnCad {
+    margin-right: 5%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.btnLog {
+    margin-right: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+}

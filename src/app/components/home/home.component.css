@@ -1,0 +1,41 @@
+h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h6 {
+    margin-top: 2%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.row {
+    margin-top: 5%;
+}
+
+.ct2 {
+    display: table;
+}
+
+.ct1 {
+    display: flex;
+}
+
+.img-fluid {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+mat-divider {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
