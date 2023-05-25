@@ -1,0 +1,63 @@
+.container {
+    margin-top: 5%;
+}
+
+.col-md-6 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.ct1 {
+    display: flex;
+}
+
+p {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+}
+
+mat-divider {
+    margin-top: 8%;
+}
+
+.mat-mdc-form-field {
+    display: unset;
+}
+
+.senha, .nome {
+    max-width: 455px;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.entrar{
+    max-width: 455px;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 15%;
+}
+
+.email {
+    max-width: 455px;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+
+.img-fluid {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.btnLog {
+    width: 100%;
+}

@@ -1,3 +1,4 @@
+<app-toolbar></app-toolbar>
 <div class="container">
     <div class="row">
         <div class="col-md-6">
@@ -30,12 +31,12 @@
                 <mat-checkbox class="example-margin">Lembrar senha</mat-checkbox>
             </p>
             <p class="entrar">
-                <button class="btn btn-primary btnLog" type="submit">Entrar</button>
+                <button class="btn btn-primary btnLog" type="submit" routerLink="/dashboard">Entrar</button>
             </p>
 
             <mat-divider></mat-divider>
             <p>Não possui conta?</p>
-            <p><strong><a href="google.com" style="text-decoration: none;">Cadastre-se aqui</a></strong></p>
+            <p><strong><a href="/cadastro" style="text-decoration: none;">Cadastre-se aqui</a></strong></p>
         </div>
         <div class="col-md-6 ct1">
             <img _ngcontent-rvs-c69 src="../../../assets/img/loginMedical.svg" class="img-fluid d-sm-block">

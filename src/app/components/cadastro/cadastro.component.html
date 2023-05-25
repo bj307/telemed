@@ -1,0 +1,53 @@
+<app-toolbar></app-toolbar>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="title">Cadastre-se</h1>
+
+            <mat-divider></mat-divider>
+
+            <p class="email">
+                <mat-form-field appearance="outline">
+                    <mat-label>Email *</mat-label>
+                    <input matInput placeholder="Digite seu nome">
+                    <mat-icon matSuffix>email</mat-icon>
+                </mat-form-field>
+            </p>
+
+            <p class="nome">
+                <mat-form-field appearance="outline">
+                    <mat-label>Nome *</mat-label>
+                    <input matInput placeholder="Digite seu email">
+                    <mat-icon matSuffix>account_circle</mat-icon>
+                </mat-form-field>
+            </p>
+
+            <p class="senha" style="text-align: unset;">
+                <mat-form-field appearance="outline">
+                    <mat-label>Senha *</mat-label>
+                    <input matInput placeholder="Digite sua senha">
+                    <mat-icon matSuffix>lock</mat-icon>
+                </mat-form-field>
+            </p>
+
+            <p class="senha" style="text-align: unset;">
+                <mat-form-field appearance="outline">
+                    <mat-label>Confirmar a senha *</mat-label>
+                    <input matInput placeholder="Digite sua senha">
+                    <mat-icon matSuffix>lock</mat-icon>
+                </mat-form-field>
+                <mat-checkbox class="example-margin">Aceito os Termos</mat-checkbox>
+            </p>
+            <p class="entrar">
+                <button class="btn btn-primary btnLog" type="submit" routerLink="/login">Cadastrar</button>
+            </p>
+
+            <mat-divider></mat-divider>
+            <p>Já possui uma conta??</p>
+            <p><strong><a routerLink="/login" style="text-decoration: none;">Faça login</a></strong></p>
+        </div>
+        <div class="col-md-6 ct1">
+            <img _ngcontent-rvs-c69 src="../../../assets/img/cadastroHome.svg" class="img-fluid d-sm-block">
+        </div>
+    </div>
+</div>

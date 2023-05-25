@@ -19,6 +19,10 @@ import { LoginComponent } from './components/login/login.component';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { CadastroComponent } from './components/cadastro/cadastro.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { MatMenuModule } from '@angular/material/menu';
 
 
 
@@ -32,7 +36,10 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     DuvidasComponent,
     FooterComponent,
     ToolbarComponent,
-    LoginComponent
+    LoginComponent,
+    CadastroComponent,
+    DashboardComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +53,8 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     MatButtonModule,
     MatInputModule,
     MatFormFieldModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
